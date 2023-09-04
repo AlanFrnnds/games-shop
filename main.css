@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@300&display=swap');
+
+  @font-face {
+    font-family: 'Bungee';
+    src: url('Bungee-Regular.ttf')
+    format(TrueType);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+
+header {
+    padding: 10px 0;
+    background-color: #182c61;
+}
+
+header .container {
+    width: 1260px;
+    max-width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container {
+  width: 1260px;
+  max-width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#info {
+    margin: 0 46px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Bungee';
+  color: #182c61;
+}
+
+h3 {
+  font-family: 'Bungee';
+  color: #182c61;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Bungee;
+
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+  list-style-type: none;
+  
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 16px;
+  font-family: 'Bungee';
+}
+
+#logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 202px;
+  margin-left: 0;
+  margin-top: 15px;
+  
+}
+
+#nintendo {
+  width: 72.24px;
+  height: 18.72px;
+}
+
+#xbox {
+  width: 72.24px;
+  height: 18.72px;
+}
+
+#play {
+  width: 30px;
+  height: 18.72px;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input, form textarea, form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #182c61;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+  outline-color: #182c61;
+}
+
+#insta {
+  height: 24px;
+}
+
+#facebook {
+  height: 24px;
+}
+
+#youtube {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #182c61;
+  padding: 8px 0;
+  color: white;
+}
